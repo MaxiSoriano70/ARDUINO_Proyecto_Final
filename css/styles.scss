@@ -1,0 +1,109 @@
+$color1: #6a0511;
+$color2: #cb7d15;
+$color3: #aea192;
+$color4: #d5d0d1;
+
+
+
+.color1{
+  color: $color1; 
+}
+
+.color2{
+  color: $color2; 
+}
+
+.color3{
+  color: $color3; 
+}
+
+.color4{
+  color: $color4; 
+}
+
+.bg-color1{
+  background-color: $color1; 
+}
+
+.bg-color2{
+  background-color: $color2; 
+}
+
+.bg-color3{
+  background-color: $color3; 
+}
+
+.bg-color4{
+  background-color: $color4; 
+}
+
+
+html {
+  scroll-padding-top: 3.5rem;
+}
+
+body{
+  font-family: 'Secular One', sans-serif;
+}
+
+header {
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
+}
+
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+body{
+  font-family: 'Secular One', sans-serif;
+}
+
+.navbar{
+  background-color: $color4 !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+h1,h2,h3{
+  font-weight: 600;
+}
+
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 60px;
+}
+h3{
+  font-size: 50px;
+}
+p{
+  font-size: 50px !important;
+}
+
+.btn-warning{
+  color: $color2;
+  background-color: $color1;
+  border-color: $color2;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  &:hover,&:focus{
+    color: $color1;
+    background-color: $color2;
+    border-color: $color1;
+  }
+}
+
+.box-image{
+  min-height: 300px;
+}
